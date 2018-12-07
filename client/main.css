@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url('images/Fondo_Login.jpg');
+    background-size: cover;
+}
+
+.login-box {
+    width: 50%;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.login-box h1 {
+    float: none;
+    font-size: 35px;
+    text-align: center;
+    border-bottom: 6px solid #4caf50;
+    margin-bottom: 50px;
+    padding: 13px 0;
+}
+
+.textbox {
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 2px solid #4caf50;
+}
+
+.textbox input {
+    border: none;
+    outline: none;
+    background: none;
+    color: rgb(160, 111, 111);
+    width: 90%;
+    float: left;
+    margin: 0 10px;
+    text-align: center;
+    font-size: 35px;
+    color: black;
+}
+
+.btnl {
+    margin-top: 1%;
+    padding-top: 5%;
+    text-align: center;
+    float: none;
+    width: 40%;
+    font-size: 45px;
+}
+
+#messages {
+    width: 95;
+    max-width: 400px;
+    height: 350px;
+    overflow-y: scroll;
+    border: 1px solid #eee;
+    box-shadow: 0px 0px 20px #ccc inset;
+    float: left;
+}
+
+.message {
+    margin: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background: white;
+}
+
+#saludo {
+    width: 95;
+    max-width: 400px;
+    height: 30px;
+    border: 1px solid #eee;
+    float: none;
+    text-align: center;
+    background: white;
+}
+
+#images p {
+    float: left;
+}
+
+.line {
+    float: left;
+}
+
+#images input {
+    position: absolute;
+    margin-top: 4px;
+    margin-left: 50px;
+}
+
+img {
+    height: 150px;
+    width: 250px;
+    float: left;
+    padding-top: 13px;
+    padding-left: 20px;
+}
+
+div#body {
+    float: left;
+}
+
+#form {
+    float: initial;
+}
+
+#images {
+    float: left;
+    width: 90%;
+    max-width: 70%;
+    height: 350px;
+    overflow-y: scroll;
+    border: 1px solid #eee;
+    box-shadow: 0px 0px 20px #ccc inset;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WELCOME</title>
+    <script type="text/javascript " src="socket.io/socket.io.js"></script>
+    <script src="login.js"></script>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="login-box">
+        <form onsubmit="return newUser();">
+            <h1>Username</h1>
+            <div class="textbox">
+                <input id="username" type="text" autocomplete="off" placeholder="Nombre">
+            </div>
+            <input class=" btnl btn btn-primary" type="submit" value="Login">
+        </form>
+    </div>
+</body>
+
+</html>
